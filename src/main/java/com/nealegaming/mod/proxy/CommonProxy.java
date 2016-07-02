@@ -1,6 +1,7 @@
 package com.nealegaming.mod.proxy;
 
-import com.nealegaming.mod.Blocks.NGBlocks;
+import com.nealegaming.mod.blocks.NGBlocks;
+import com.nealegaming.mod.items.NGItems;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -11,6 +12,7 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent preEvent) {
 		
 		NGBlocks.initBlocks();
+		NGItems.initItems();
 	}
 	
 	public void init(FMLInitializationEvent event) {

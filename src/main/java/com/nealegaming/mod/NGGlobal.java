@@ -8,4 +8,6 @@ public class NGGlobal {
 	
 	public static final String NG_CLIENT_PROXY = "com.nealegaming.mod.proxy.ClientProxy";
 	public static final String NG_COMMON_PROXY= "com.nealegaming.mod.proxy.CommonProxy";
+	
+	public static final NGCreativeTab ngCreativeTab = new NGCreativeTab("ngCreativeTab");
 }

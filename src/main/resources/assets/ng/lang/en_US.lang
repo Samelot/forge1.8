@@ -1,2 +1,9 @@
 tile.copperOre.name=Copper Ore
 tile.nickelOre.name=Nickel Ore
+
+tile.netherCopperOre.name=Nether Copper Ore
+tile.netherNickelOre.name=Nether Nickel Ore
+
+item.copperIngot.name=Copper Ingot
+
+itemGroup.ngCreativeTab=NealeGaming

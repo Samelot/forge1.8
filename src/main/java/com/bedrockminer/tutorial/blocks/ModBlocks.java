@@ -7,6 +7,7 @@ public final class ModBlocks {
 
 	public static Block tutorialBlock;
 	public static Block propertyBlock;
+	
 
 	public static void createBlocks() {
 	    GameRegistry.registerBlock(tutorialBlock = new BasicBlock("tutorial_block").setLightLevel(1.0f), "tutorial_block");
